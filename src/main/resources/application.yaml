@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework: INFO
+    br.com.devmedia.jm.woki.airport: INFO
+server:
+  port: 11000
+  contextPath: /spring-boot
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    datasource:
+      platform: h2
