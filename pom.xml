@@ -42,6 +42,12 @@
             <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
 
+        <!-- Jersey -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jersey</artifactId>
+        </dependency>
+
         <!-- Spring Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
