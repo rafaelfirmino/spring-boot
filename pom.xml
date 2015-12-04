@@ -22,7 +22,6 @@
         <url>https://github.com/rafaelfirmino/spring-boot</url>
         <connection>scm:git:git://github.com/rafaelfirmino/spring-boot.git</connection>
         <developerConnection>scm:git:git@github.com:rafaelfirmino/spring-boot.git</developerConnection>
-      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
@@ -75,6 +74,11 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
 </project>
